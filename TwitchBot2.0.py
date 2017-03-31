@@ -69,7 +69,7 @@ while True:
                
                 #MODT = Message of the day
                 if MODT:
-                    print username + ": " + message
+                    print (username + ": " + message)
 
                     #Put your commands here
                     if message == "Hello":
