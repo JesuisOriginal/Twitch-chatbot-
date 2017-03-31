@@ -1,4 +1,6 @@
-from test import string
+import socket, string, random, shreading
+from time import gmtime, strftime
+
 HOST = "irc.twitch.tv"
 NICK = "Botnick"
 PORT = 6667
